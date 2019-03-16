@@ -1,0 +1,40 @@
+/*.bus_body{
+	padding-left: 5%;
+}*/
+
+.card{
+	padding-bottom: 3%;
+}
+
+.book-ticket{
+	width: 100%;
+	height: 100%;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container1{
+	padding-top: 15%;
+}
+
+.bus_header{
+	padding-bottom: 5%;
+	color: white;
+	text-align: center;
+}
+.midle{
+	text-align: center;
+}
+	.align1{
+	margin-left: 19%;
+	margin-right: 2%;
+}
+	.padleft1{
+	padding-left: 10%;
+}
+
+.bus_body{
+	padding-top: 5%;
+}

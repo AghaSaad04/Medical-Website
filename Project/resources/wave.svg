@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="198"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="-10.959%" y2="100%">
+      <stop stop-color="#57BBC1" stop-opacity=".25" offset="0%"/>
+      <stop stop-color="#015871" offset="100%"/>
+    </linearGradient>
+  </defs>
+  
+<g class="currentLayer" style=""><title>Layer 1</title><path fill="#252527" fill-rule="evenodd" d="M1599.9950000001118,121 C1289,121 1190.1019897460938,-0.25 789,0 c-400,0 -500,121 -789,121 v77 H1600 s-0.004999999888241291,-48 -0.004999999888241291,-77 z" id="svg_1" class="selected" fill-opacity="1"/></g></svg>

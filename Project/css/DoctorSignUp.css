@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    }
+
+body {
+    background-image: url("../resources/Doctor-signup.jpg");
+    /*height: 100%;*/
+    /*background-position: center;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card {
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+/* IMG displaying */
+.person-card {
+    margin-top: 5em;
+    /*padding-top: 5em;*/
+}
+
+.person-card .card-title {
+    text-align: center;
+}
+
+.person-card .person-img {
+    /*width: 10em;*/
+    /*font-size: 100px;*/
+    /*position: relative;*/
+    /*border-radius: 100%;*/
+    color: white;
+    }
+
+.test-background-color {
+    background-color: #005051;
+}
+
+.top-margin {
+    margin-top: 2em;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.form-control {
+    background-color: rgba(100, 100, 100, 0.4);
+    color: white;
+    border: 5px;
+    border-top: 0 none;
+    border-bottom: 0 none;
+    border-right: 0 none;
+    border-color: white;
+    border-style: solid;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #ff9900;
+
+}
+
+.col-form-label {
+    color: #ff9900;
+}
+
+.form-control:focus {
+    /*background-color: rgba(255,255,255,0.7);*/
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.top-bottom-padding {
+    padding: 20px 0px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/*    .outer-background-div {
+    background-color: black;
+    opacity: .7;
+    height: 130%;
+    position: absolute;
+}
+*/
+.left-right-margin {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.h1 {
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    text-align: center;
+    color: #ff9900;
+
+}
+
+.z-index-button {
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    width: 100%;
+    margin-top: 1em;
+}
+
+.text-area {
+    background-color: rgba(0, 0, 0, 0.54);
+    /*color: white;*/
+    width: 100%;
+    padding: 10px 23px;
+    font-size: 14px;
+    border: none;
+}
+
+input {
+    width: 100%;
+}
+
+/*input[type="submit"] {
+    margin-left: 30px;
+}*/
+
+.col-md-6 {
+    padding-right: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    position: inherit;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+.option-background-color    {
+        background-color: rgba(100, 100, 100, 0.4);
+}

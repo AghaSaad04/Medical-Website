@@ -1,0 +1,353 @@
+   body{
+    /*background: -webkit-linear-gradient(left, #3931af, #00c6ff);*/
+    }
+    .upload-image {
+  display: table-cell;
+  border: 1px soid green;
+  width: 220px;
+  height: 220px;
+}
+
+.upload-image-preview {
+  width: 220px;
+  height: 220px;
+}
+.upload-image-preview img{
+  width: 100%;
+  height:  100%;
+}
+    .emp-profile{
+        padding: 3%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 0.5rem;
+        background: #fff;
+    }
+    
+    .profile-img .file {
+        position: relative;
+        overflow: hidden;
+        margin-top: -20%;
+        width: 70%;
+        border: none;
+        border-radius: 0;
+        font-size: 15px;
+        background: #212529b8;
+    }
+    .profile-img .file input {
+        position: absolute;
+        opacity: 0;
+        right: 0;
+        top: 0;
+    }
+    .profile-head h5{
+        color: #333;
+    }
+    .profile-head h6{
+        color: #0062cc;
+    }
+    .profile-edit-btn{
+        border: none;
+        border-radius: 1.5rem;
+        width: 70%;
+        padding: 2%;
+        font-weight: 600;
+        color: #6c757d;
+        cursor: pointer;
+    }
+    .proile-rating{
+        font-size: 12px;
+        color: #818182;
+        margin-top: 5%;
+    }
+    .proile-rating span{
+        color: #495057;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .profile-head .nav-tabs{
+        margin-bottom:5%;
+    }
+    .profile-head .nav-tabs .nav-link{
+        font-weight:600;
+        border: none;
+    }
+    .profile-head .nav-tabs .nav-link.active{
+        border: none;
+        border-bottom:2px solid #0062cc;
+    }
+    .profile-work{
+        padding: 14%;
+        margin-top: -15%;
+    }
+    .profile-work p{
+        font-size: 12px;
+        color: #818182;
+        font-weight: 600;
+        margin-top: 10%;
+    }
+    .profile-work a{
+        text-decoration: none;
+        color: #495057;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .profile-work ul{
+        list-style: none;
+    }
+    .profile-tab label{
+        font-weight: 600;
+    }
+    .profile-tab p{
+        font-weight: 600;
+        color: #0062cc;
+    }
+    .fields-w3-agileits {
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 12px 12px 12px 4px;
+    /*background: rgba(132, 132, 132, 0.27);*/
+    border-radius: 10px;
+}.fields-w3-agileits span {
+    flex-basis: 10%;
+    -webkit-flex-basis: 10%;
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    /*line-height: 40px;*/
+}
+
+.fields-w3-agileits input[type="text"],
+.fields-w3-agileits input[type="password"],
+    .fields-w3-agileits input[type="email"],
+    .fields-w3-agileits input[type="tel"],
+    .fields-w3-agileits input[type="date"],
+    .fields-w3-agileits input[type="radio"], {
+    flex-basis: 90%;
+    -webkit-flex-basis: 90%;
+}
+.fields-w3-agileits {
+        padding: 10px 10px 10px 1px;
+    }
+    .main-w3layouts-form .fields-w3-agileits:nth-child(1) {
+        margin-bottom: 1em;
+    }
+    .fields-w3-agileits input[type="text"],
+    .fields-w3-agileits input[type="password"],
+    .fields-w3-agileits input[type="email"],
+    .fields-w3-agileits input[type="tel"],
+    .fields-w3-agileits input[type="date"],
+.fields-w3-agileits input[type="radio"]
+ {
+        flex-basis: 88%;
+        -webkit-flex-basis: 88%;
+    }
+    .fields-w3-agileits span {
+        flex-basis: 12%;
+        -webkit-flex-basis: 12%;
+    }
+    .fields-w3-agileits span {
+        font-size: 16px;
+    }
+    @media(max-width:414px) {
+    .fields-w3-agileits span {
+        flex-basis: 15%;
+        -webkit-flex-basis: 15%;
+    }
+    .fields-w3-agileits input[type="text"],
+    .fields-w3-agileits input[type="password"],
+    .fields-w3-agileits input[type="email"],
+    .fields-w3-agileits input[type="tel"],
+    .fields-w3-agileits input[type="date"],
+    .fields-w3-agileits input[type="radio"]
+ {
+        flex-basis: 85%;
+        -webkit-flex-basis: 85%;
+    }
+}
+@media(max-width:320px) {
+    h1 {
+        letter-spacing: 1px;
+        font-size: 37px;
+    }
+    .fields-w3-agileits span {
+        flex-basis: 18%;
+        -webkit-flex-basis: 18%;
+    }
+    .fields-w3-agileits input[type="text"],
+    .fields-w3-agileits input[type="password"],
+    .fields-w3-agileits input[type="email"],
+    .fields-w3-agileits input[type="tel"],
+    .fields-w3-agileits input[type="date"],
+    .fields-w3-agileits input[type="radio"]
+{
+        flex-basis: 82%;
+        -webkit-flex-basis: 82%;
+    }
+}
+.main-w3layouts-form {
+    /*background: rgba(0, 0, 0, 0.70);*/
+    border-radius: 10px;
+}
+
+.main-w3layouts-form h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 25px;
+    /*margin-bottom: 1em;*/
+
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-w3layouts-form input[type="text"],
+.main-w3layouts-form input[type="password"],
+.main-w3layouts-form input[type="email"],
+.main-w3layouts-form input[type="tel"],
+.main-w3layouts-form input[type="date"],
+.main-w3layouts-form input[type="radio"],
+.main-w3layouts-form textarea
+
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    background: rgba(0, 0, 0, 0.74);
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff;
+
+    border-radius: 10px;
+    border: 5px solid black;
+    outline: none;
+}
+
+.main-w3layouts-form .fields-w3-agileits:nth-child(1) {
+    /*margin-bottom: 1.3em;*/
+}
+
+.main-w3layouts-form input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    /*margin-bottom: 30px;*/
+    background: #3dace1;
+    padding: 0.7em 3em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.main-w3layouts-form input[type="submit"]:hover {
+    background: #ffcc54;
+    color: #000;
+}
+@media(max-width:1024px) {
+    h1 {
+        /*margin: 0.7em 0 0;*/
+        font-size: 52px;
+        letter-spacing: 6px;
+    }
+    .main-w3layouts-form input[type="text"],
+    .main-w3layouts-form input[type="password"],
+.main-w3layouts-form input[type="email"],
+.main-w3layouts-form input[type="tel"],
+.main-w3layouts-form input[type="date"],
+.main-w3layouts-form input[type="radio"],
+.main-w3layouts-form textarea
+
+ {
+        padding: 12px 15px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+    .container-fluid{
+    padding: 0px;
+}
+    .ocean {
+        /*height: 5%;*/
+        width: 100%;
+    }
+
+    .wave {
+        background: url(../resources/wave.svg) repeat-x;
+        width: 6400px;
+        /*width: 100%;*/
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .wave:nth-of-type(2) {
+        margin-top: -150px;
+        /*BEST CASE SO FAR*/
+        /*animation: wave 8.6s cubic-bezier( 0.46, 0.35, 0.43, 0.53) -.125s infinite, swell_2  7s ease -1.25s infinite;*/
+        animation: wave 9s cubic-bezier(0.46, 0.60, 0.43, 0.53) -.125s infinite, swell_2 7s ease -1.25s infinite;
+        opacity: 1;
+        height: 140px;
+    }
+
+    .wave:nth-of-type(1) {
+        z-index: 1;
+        height: 180px;
+        opacity: 0.7;
+        animation: swell_1 5s ease -1.25s reverse infinite, wave 13s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite
+    }
+
+    @keyframes wave {
+        0% {
+            margin-left: 0;
+        }
+
+        100% {
+            margin-left: -1600px;
+        }
+    }
+    @keyframes swell_2 {
+
+        0%,
+        100% {
+            transform: translate3d(0, 10px, 0);
+        }
+
+        50% {
+            transform: translate3d(0, 20px, 0);
+        }
+    }
+
+    @keyframes swell_1 {
+
+        0%,
+        100% {
+            transform: translate3d(0px, 10px, 0);
+        }
+
+        50% {
+            transform: translate3d(0px, 25px, 0);
+        }
+        input["submit"]{
+            margin-bottom: 30px;
+        }

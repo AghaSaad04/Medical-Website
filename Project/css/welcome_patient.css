@@ -1,0 +1,94 @@
+.main-w3layouts-form {
+	margin: 2em auto 0;
+	width: 30%;
+	background: rgba(0, 0, 0, 0.70);
+	padding: 2.3em 2em;
+	border-radius:10px 12px;
+	
+}
+.main-w3layouts-form h2 {
+	color: #fff;
+	font-weight: 100;
+	font-size: 25px;
+	margin-bottom: 1em;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-w3layouts-form input[type="text"],
+.main-w3layouts-form input[type="password"],
+.main-w3layouts-form input[type="email"],
+.main-w3layouts-form input[type="tel"],
+.main-w3layouts-form input[type="date"]
+{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 12px 20px;
+	background: rgba(0, 0, 0, 0.7);
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 10px 12px;
+	border-left: 5px solid white;
+}
+
+/*.main-w3layouts-form .fields-w3-agileits:nth-child(1) {
+	margin-bottom: 1.3em;
+}*/
+
+.main-w3layouts-form input[type="submit"] {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	border: none;
+	color: #fff;
+	background: #3dace1;
+	padding: 0.7em 3em;
+	outline: none;
+	cursor: pointer;
+	transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+.main-w3layouts-form input[type="submit"]:hover {
+	background: #ffcc54;
+	color: #000;
+}
+
+.fields-w3-agileits {
+	display: -o-flex;
+	display: flex;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+	/*padding: 12px 	12px 12px 4px;*/
+	background: rgba(132, 132, 132, 0.27);
+ 	
+	
+}
+
+.fields-w3-agileits span {
+	flex-basis: 10%;
+	-o-flex-basis: 10%;
+	display: inline-block;
+	font-size: 17px;
+	color: #fff;
+	line-height: 40px;
+}
+
+.fields-w3-agileits input[type="text"],
+.fields-w3-agileits input[type="password"],
+	.fields-w3-agileits input[type="email"],
+	.fields-w3-agileits input[type="tel"],
+	.fields-w3-agileits input[type="date"],
+	.fields-w3-agileits input[type="radio"], {
+	flex-basis: 90%;
+	-o-flex-basis: 90%;
+}
